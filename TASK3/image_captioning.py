@@ -6,7 +6,7 @@ from tqdm import tqdm
 from keras.models import Model
 from keras.applications.vgg16 import VGG16, preprocess_input
 from keras.preprocessing import image, sequence
-from keras.preprocessing import Tokenizer
+from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences, to_categorical
 from keras.layers import Input, Dense, LSTM, Embedding, Dropout, add
 from keras.models import load_model
